@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/%28auth%29/sign-in/page.jsx"],"sourcesContent":["import React from 'react'\nimport { SignIn } from '@clerk/nextjs'\nconst SignInPage = () => {\n  return (\n   <SignIn />\n  )\n}\n\nexport default SignInPage\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AACA,MAAM,aAAa;IACjB,qBACC,uQAAC,yNAAM;;;;;AAEV;uCAEe","debugId":null}}]
+}

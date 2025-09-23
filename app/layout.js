@@ -1,12 +1,15 @@
-import {Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import "./globals.css";
+import { ConvexClientProvider } from "@/components/convex-client-provider";
+import { ClerkProvider } from "@clerk/nextjs";
 
-const inter=Inter({subsets:["latin"]})
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "WalletWise: AI-Powered Finance & Expense Splitting App",
-  description: "An AI-powered app for smart finance splitting and monthly spending reviews. Gain actionable insights, track shared expenses, and manage your money effortlessly. Start making smarter financial decisions today.",
+  description:
+    "An AI-powered app for smart finance splitting and monthly spending reviews. Gain actionable insights, track shared expenses, and manage your money effortlessly. Start making smarter financial decisions today.",
 };
 export default function RootLayout({ children }) {
   return (
@@ -14,15 +17,13 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon "></link>
       </head>
-      <body
-        className={`${inter.className}`}
-      >
-
+      <body className={`${inter.className}`}>
+        <ClerkProvider>
+        <ConvexClientProvider>
         <Header />
-        <main className="min-h-screen">
-            {children}
-        </main>
-      
+        <main className="min-h-screen">{children}</main>
+        </ConvexClientProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

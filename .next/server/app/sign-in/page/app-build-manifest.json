@@ -1,0 +1,23 @@
+{
+  "pages": {
+    "/sign-in/page": [
+      "static/chunks/349d5_next_dist_34bb87af._.js",
+      "static/chunks/Desktop_WalletWise_app_favicon_ico_mjs_298d0a02._.js",
+      "static/chunks/[root-of-the-server]__3aad4469._.css",
+      "static/chunks/349d5_@clerk_nextjs_dist_esm_app-router_636b4d76._.js",
+      "static/chunks/349d5_45902452._.js",
+      "static/chunks/Desktop_WalletWise_components_convex-client-provider_jsx_ca0c3acf._.js",
+      "static/chunks/Desktop_WalletWise_app_layout_608001ea.js",
+      "static/chunks/349d5_next_dist_client_components_builtin_global-error_a78de761.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e4048a81._.js",
+      "static/chunks/349d5_next_dist_compiled_react-dom_b81c2885._.js",
+      "static/chunks/349d5_next_dist_compiled_next-devtools_index_0da56e97.js",
+      "static/chunks/349d5_next_dist_compiled_a307b8e7._.js",
+      "static/chunks/349d5_next_dist_client_5d05d7e6._.js",
+      "static/chunks/349d5_next_dist_46a75668._.js",
+      "static/chunks/349d5_@swc_helpers_cjs_473bb0b2._.js",
+      "static/chunks/Desktop_WalletWise_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_WalletWise_8ce626b9._.js"
+    ]
+  }
+}

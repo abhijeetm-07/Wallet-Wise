@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/components/convex-client-provider.jsx"],"sourcesContent":["\"use client\";\n\nimport { ConvexProvider, ConvexReactClient } from \"convex/react\";\nimport { ReactNode } from \"react\";\n\nconst convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL);\n\nexport function ConvexClientProvider({ children }) {\n  return <ConvexProvider \n  client={convex}\n    //useAuth={}\n    >\n    {children}\n    </ConvexProvider>;\n}\n"],"names":[],"mappings":";;;;AAKqC;;AAHrC;AAAA;AACA;AAHA;;;;AAKA,MAAM,SAAS,IAAI,yMAAiB;AAE7B,SAAS,qBAAqB,KAAY;QAAZ,EAAE,QAAQ,EAAE,GAAZ;IACnC,qBAAO,sNAAC,sMAAc;QACtB,QAAQ;kBAGL;;;;;;AAEL;KAPgB","debugId":null}}]
+}
