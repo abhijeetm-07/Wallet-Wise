@@ -1,6 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/_error.js")
-R.c("server/chunks/ssr/349d5_e33f2c83._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__e6a4d965._.js")
+R.c("server/chunks/ssr/349d5_8476ad7e._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fa248b9f._.js")
 R.c("server/chunks/ssr/349d5_next_564aeab8._.js")
 R.c("server/chunks/ssr/349d5_b38f1921._.js")
 R.c("server/chunks/ssr/[externals]_next_dist_shared_lib_no-fallback-error_external_59b92b38.js")

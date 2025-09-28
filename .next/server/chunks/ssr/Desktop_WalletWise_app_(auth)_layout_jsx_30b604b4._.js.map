@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/%28auth%29/layout.jsx"],"sourcesContent":["import React from 'react'\n\nconst Authlayout = ({children}) => {\n  return (\n    <div className='flex justify-center pt-40'>\n      {children}\n    </div>\n  )\n}\n\nexport default Authlayout\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,aAAa,CAAC,EAAC,QAAQ,EAAC;IAC5B,qBACE,uQAAC;QAAI,WAAU;kBACZ;;;;;;AAGP;uCAEe","debugId":null}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/%28auth%29/layout.jsx"],"sourcesContent":["const AuthLayout = ({ children }) => {\n  return <div className=\"flex justify-center pt-40\">{children}</div>;\n};\n\nexport default AuthLayout;"],"names":[],"mappings":";;;;;;AAAA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBAAO,uQAAC;QAAI,WAAU;kBAA6B;;;;;;AACrD;uCAEe","debugId":null}}]
 }

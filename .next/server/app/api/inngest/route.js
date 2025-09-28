@@ -1,0 +1,11 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/inngest/route.js")
+R.c("server/chunks/[externals]_node:async_hooks_fc37a2d4._.js")
+R.c("server/chunks/349d5_next_dist_3ef4122c._.js")
+R.c("server/chunks/349d5_@opentelemetry_api_build_esm_e795767d._.js")
+R.c("server/chunks/349d5_inngest_a91b4141._.js")
+R.c("server/chunks/349d5_zod_v3_35857d0a._.js")
+R.c("server/chunks/349d5_6c6c757a._.js")
+R.c("server/chunks/[root-of-the-server]__e5b84cad._.js")
+R.m("[project]/Desktop/WalletWise/.next-internal/server/app/api/inngest/route/actions.js [app-rsc] (server actions loader, ecmascript)")
+R.m("[project]/Desktop/WalletWise/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Desktop/WalletWise/app/api/inngest/route.js [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Desktop/WalletWise/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Desktop/WalletWise/app/api/inngest/route.js [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
