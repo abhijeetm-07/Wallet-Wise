@@ -5,11 +5,12 @@
       "files": [
         "server/edge/chunks/Desktop_WalletWise_c53d9789._.js",
         "server/edge/chunks/349d5_@opentelemetry_api_build_esm_6790deb8._.js",
+        "server/edge/chunks/349d5_@clerk_shared_dist_abdfec3a._.js",
         "server/edge/chunks/349d5_@clerk_backend_dist_0154de6e._.js",
-        "server/edge/chunks/349d5_@clerk_nextjs_dist_esm_cf16ebcb._.js",
-        "server/edge/chunks/349d5_42e58864._.js",
+        "server/edge/chunks/349d5_@clerk_nextjs_dist_esm_38812e1c._.js",
+        "server/edge/chunks/349d5_cookie_dist_index_d0ec87f7.js",
         "server/edge/chunks/[root-of-the-server]__e29acddd._.js",
-        "server/edge/chunks/turbopack-Desktop_WalletWise_edge-wrapper_5841e988.js"
+        "server/edge/chunks/turbopack-Desktop_WalletWise_edge-wrapper_566cf5e4.js"
       ],
       "name": "middleware",
       "page": "/",
@@ -28,9 +29,9 @@
       "env": {
         "__NEXT_BUILD_ID": "development",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "NnS4i2Fpeg8Bu4E7ifGbS4R3xIE6nfuXdBA15fPFWi8=",
-        "__NEXT_PREVIEW_MODE_ID": "69906ba627018a2da2cbd32d510ea6c5",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "65ffd6eed7480d231797caa3f63ce0e5df974d0e426a9288fef636bff4d6a751",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5f3c9cefa5992be7b3f904d6188ac881e3ed9b9efc8ed5a073e52f86fb172b96"
+        "__NEXT_PREVIEW_MODE_ID": "0564019b824a6ce122c31d819b5af059",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "0de6fe8ed177d490f5233406f93be2a9b9602f8d46a07447914c727293a37997",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0a11cd1491cf4d29f77ec68f30aa9c1d41320c49db90787da3bd7c0ea118a819"
       }
     }
   },

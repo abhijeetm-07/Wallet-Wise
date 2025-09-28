@@ -7,10 +7,17 @@
           "async": false,
           "exportedName": "formatMetadataHeaders",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/page": "rsc"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
       "exportedName": "formatMetadataHeaders"
@@ -22,10 +29,17 @@
           "async": false,
           "exportedName": "collectKeylessMetadata",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/page": "rsc"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
       "exportedName": "collectKeylessMetadata"
@@ -37,10 +51,17 @@
           "async": false,
           "exportedName": "deleteKeylessAction",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "action-browser"
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "deleteKeylessAction"
@@ -52,10 +73,17 @@
           "async": false,
           "exportedName": "createOrReadKeylessAction",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "action-browser"
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "createOrReadKeylessAction"
@@ -67,10 +95,17 @@
           "async": false,
           "exportedName": "detectKeylessEnvDriftAction",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "action-browser"
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "detectKeylessEnvDriftAction"
@@ -82,10 +117,17 @@
           "async": false,
           "exportedName": "syncKeylessConfigAction",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "action-browser"
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "syncKeylessConfigAction"
@@ -97,10 +139,17 @@
           "async": false,
           "exportedName": "invalidateCacheAction",
           "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Desktop/WalletWise/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
         }
       },
       "layer": {
-        "app/_not-found/page": "action-browser"
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
       },
       "filename": "Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
       "exportedName": "invalidateCacheAction"
