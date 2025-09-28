@@ -14,7 +14,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Authenticated, Unauthenticated } from "convex/react";
 import { Button } from "./ui/button";
-import { Ghost, LayoutDashboard } from "lucide-react";
+import { LayoutDashboard } from "lucide-react";
 
 const Header = () => {
   const { isLoading } = useStoreUser();
@@ -25,7 +25,8 @@ const Header = () => {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <img
-            src="logos/logo.png"
+            // ✅ FIX: Changed to ABSOLUTE path (starts with /)
+            src="/logos/logo.png" 
             alt="WalletWise Logo"
             width={200}
             height={80}
@@ -53,7 +54,10 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <Authenticated>
             <Link href="/dashboard">
-              <Button variant={"outline"} className=" hidden md:inline-flex items-center gap-2 hover:bg-green-600 hover:border-green-600 hover:text-white border-green-600 text-green-600">
+              <Button 
+                variant={"outline"} 
+                className="hidden md:inline-flex items-center gap-2 hover:bg-green-600 hover:border-green-600 hover:text-white border-green-600 text-green-600"
+              >
                 <LayoutDashboard className="h-4 w-4" />
                 Dashboard
               </Button>
@@ -64,11 +68,11 @@ const Header = () => {
             <UserButton/>
           </Authenticated>
           <Unauthenticated>
-            <SignInButton>
-              <Button variant={"ghost"}>SignIn</Button>
+            <SignInButton mode="modal">
+              <Button variant={"ghost"}>Sign In</Button>
             </SignInButton>
 
-            <SignUpButton>
+            <SignUpButton mode="modal">
               <Button className="bg-green-600 hover:bg-green-800 border-none">
                 Get Started
               </Button>
