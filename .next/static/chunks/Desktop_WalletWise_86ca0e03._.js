@@ -45,46 +45,44 @@ var _s = __turbopack_context__.k.signature();
 ;
 function useStoreUser() {
     _s();
-    const { isLoading, isAuthenticated } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$convex$2f$dist$2f$esm$2f$react$2f$ConvexAuthState$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useConvexAuth"])();
+    const { isAuthenticated, isLoading: isLoadingAuth } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$convex$2f$dist$2f$esm$2f$react$2f$ConvexAuthState$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useConvexAuth"])();
     const { user } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$shared$2f$dist$2f$react$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useUser"])();
-    // When this state is set we know the server
-    // has stored the user.
     const [userId, setUserId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const storeUser = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$convex$2f$dist$2f$esm$2f$react$2f$client$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMutation"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$convex$2f$_generated$2f$api$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["api"].users.store);
-    // Call the `storeUser` mutation function to store
-    // the current user in the `users` table and return the `Id` value.
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "useStoreUser.useEffect": ()=>{
-            // If the user is not logged in don't do anything
-            if (!isAuthenticated) {
+            if (!isAuthenticated || !user) {
+                setUserId(null);
                 return;
             }
-            // Store the user in the database.
-            // Recall that `storeUser` gets the user information via the `auth`
-            // object on the server. You don't need to pass anything manually here.
+            if (userId !== null) {
+                return;
+            }
             async function createUser() {
-                const id = await storeUser();
-                setUserId(id);
+                try {
+                    const id = await storeUser();
+                    setUserId(id);
+                } catch (error) {
+                    console.error("Convex storeUser mutation failed:", error);
+                    setUserId('error');
+                }
             }
             createUser();
             return ({
                 "useStoreUser.useEffect": ()=>setUserId(null)
             })["useStoreUser.useEffect"];
-        // Make sure the effect reruns if the user logs in with
-        // a different identity
         }
     }["useStoreUser.useEffect"], [
         isAuthenticated,
         storeUser,
         user === null || user === void 0 ? void 0 : user.id
     ]);
-    // Combine the local state with the state from context
     return {
-        isLoading: isLoading || isAuthenticated && userId === null,
+        isLoading: isLoadingAuth || isAuthenticated && userId === null,
         isAuthenticated: isAuthenticated && userId !== null
     };
 }
-_s(useStoreUser, "ri6MeGjoY3SrG6xVd3dft/pjWlw=", false, function() {
+_s(useStoreUser, "q3J2ybUPvxmItw0/d2xiQVMxVWk=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$convex$2f$dist$2f$esm$2f$react$2f$ConvexAuthState$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useConvexAuth"],
         __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$shared$2f$dist$2f$react$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useUser"],
