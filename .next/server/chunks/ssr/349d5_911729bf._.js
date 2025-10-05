@@ -19679,7 +19679,7 @@ function ensureServerEntryExports(actions) {
 "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f211947c46d7b913fa6dc0912458d70c63c4887f7":"formatMetadataHeaders","7fa8daa665973d62786bf83fa3e73a91a0f55b1e6e":"collectKeylessMetadata"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7f5fda432ea3ec9713cb4f0b7dfa567e71eea9e8a4":"formatMetadataHeaders","7f883f463acd0f94a237d104e93b444a4175d7e358":"collectKeylessMetadata"},"",""] */ __turbopack_context__.s([
     "collectKeylessMetadata",
     ()=>collectKeylessMetadata,
     "formatMetadataHeaders",
@@ -19759,8 +19759,8 @@ function formatMetadataHeaders(metadata) {
     collectKeylessMetadata,
     formatMetadataHeaders
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(collectKeylessMetadata, "7fa8daa665973d62786bf83fa3e73a91a0f55b1e6e", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(formatMetadataHeaders, "7f211947c46d7b913fa6dc0912458d70c63c4887f7", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(collectKeylessMetadata, "7f883f463acd0f94a237d104e93b444a4175d7e358", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(formatMetadataHeaders, "7f5fda432ea3ec9713cb4f0b7dfa567e71eea9e8a4", null);
  //# sourceMappingURL=keyless-custom-headers.js.map
 }),
 "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/utils/only-try.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -20430,7 +20430,7 @@ async function getKeylessCookieValue(getter) {
 "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f6d7523e4624a3eef9b1c8aed16f16465c128708a":"deleteKeylessAction","7fbb66bed35f54b969562458d1cece9f58566c4795":"createOrReadKeylessAction","7fc6bc686e0b4b8dfa6a4719019f382090ae6226b7":"detectKeylessEnvDriftAction","7ffd513fd5101f36df03cd8831cc862efce52b79b5":"syncKeylessConfigAction"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7f17f0d112a0253b9ca0bbce9b756a1d19383cc380":"syncKeylessConfigAction","7f2900904a68838322652dd41d1b1afd3e4336c7e1":"detectKeylessEnvDriftAction","7f363cecdd7f0422ef2eee07ec2caf03b501bfc83d":"deleteKeylessAction","7f59844259ffbb5487a0d81b7da1ca6adf31d851e2":"createOrReadKeylessAction"},"",""] */ __turbopack_context__.s([
     "createOrReadKeylessAction",
     ()=>createOrReadKeylessAction,
     "deleteKeylessAction",
@@ -20539,10 +20539,10 @@ async function detectKeylessEnvDriftAction() {
     detectKeylessEnvDriftAction,
     syncKeylessConfigAction
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createOrReadKeylessAction, "7fbb66bed35f54b969562458d1cece9f58566c4795", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteKeylessAction, "7f6d7523e4624a3eef9b1c8aed16f16465c128708a", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(detectKeylessEnvDriftAction, "7fc6bc686e0b4b8dfa6a4719019f382090ae6226b7", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(syncKeylessConfigAction, "7ffd513fd5101f36df03cd8831cc862efce52b79b5", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createOrReadKeylessAction, "7f59844259ffbb5487a0d81b7da1ca6adf31d851e2", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteKeylessAction, "7f363cecdd7f0422ef2eee07ec2caf03b501bfc83d", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(detectKeylessEnvDriftAction, "7f2900904a68838322652dd41d1b1afd3e4336c7e1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(syncKeylessConfigAction, "7f17f0d112a0253b9ca0bbce9b756a1d19383cc380", null);
 }),
 "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server/keyless-provider.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

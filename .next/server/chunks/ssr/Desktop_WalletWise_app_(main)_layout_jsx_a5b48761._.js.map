@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/%28main%29/layout.jsx"],"sourcesContent":["import { Authenticated } from \"convex/react\";\nimport React from \"react\";\n\nconst MainLayout = ({ children }) => {\n  return (\n    <Authenticated>\n      <div>{children}</div>\n    </Authenticated>\n  );\n};\n\nexport default MainLayout;\n"],"names":[],"mappings":";;;;;AAAA;AAAA;AACA;;;;AAEA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBACE,uQAAC,wMAAa;kBACZ,cAAA,uQAAC;sBAAK;;;;;;;;;;;AAGZ;uCAEe","debugId":null}}]
-}

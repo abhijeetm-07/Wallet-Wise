@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/lib/inngest/client.js"],"sourcesContent":["import { Inngest } from \"inngest\";\n\n// Create a client to send and receive events\nexport const inngest = new Inngest({ id: \"WalletWise\" });"],"names":[],"mappings":";;;;AAAA;;AAGO,MAAM,UAAU,IAAI,sLAAO,CAAC;IAAE,IAAI;AAAa","debugId":null}},
-    {"offset": {"line": 74, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/api/inngest/route.js"],"sourcesContent":["import { serve } from \"inngest/next\";\nimport { inngest } from \"../../../lib/inngest/client.js\";\n\n// Create an API that serves zero functions\nexport const { GET, POST, PUT } = serve({\n  client: inngest,\n  functions: [\n    helloWorld,\n  ],\n});"],"names":[],"mappings":";;;;;;;;AAAA;AACA;;;AAGO,MAAM,EAAE,GAAG,EAAE,IAAI,EAAE,GAAG,EAAE,GAAG,IAAA,mKAAK,EAAC;IACtC,QAAQ,8JAAO;IACf,WAAW;QACT;KACD;AACH","debugId":null}}]
-}

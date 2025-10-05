@@ -2,7 +2,7 @@ module.exports = [
 "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f080cb2fce68ea0fbaf90bb89547665d562657468":"invalidateCacheAction"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7fcb3b308ecb278e8b5e8182d4cacb08dc7d690bd9":"invalidateCacheAction"},"",""] */ __turbopack_context__.s([
     "invalidateCacheAction",
     ()=>invalidateCacheAction
 ]);
@@ -21,7 +21,7 @@ async function invalidateCacheAction() {
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ensureServerEntryExports"])([
     invalidateCacheAction
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(invalidateCacheAction, "7f080cb2fce68ea0fbaf90bb89547665d562657468", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(invalidateCacheAction, "7fcb3b308ecb278e8b5e8182d4cacb08dc7d690bd9", null);
 }),
 "[project]/Desktop/WalletWise/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";
@@ -42,20 +42,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$nod
 "use strict";
 
 __turbopack_context__.s([
-    "7f080cb2fce68ea0fbaf90bb89547665d562657468",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$server$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["invalidateCacheAction"],
-    "7f211947c46d7b913fa6dc0912458d70c63c4887f7",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$server$2f$keyless$2d$custom$2d$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["formatMetadataHeaders"],
-    "7f6d7523e4624a3eef9b1c8aed16f16465c128708a",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["deleteKeylessAction"],
-    "7fa8daa665973d62786bf83fa3e73a91a0f55b1e6e",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$server$2f$keyless$2d$custom$2d$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["collectKeylessMetadata"],
-    "7fbb66bed35f54b969562458d1cece9f58566c4795",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createOrReadKeylessAction"],
-    "7fc6bc686e0b4b8dfa6a4719019f382090ae6226b7",
+    "7f17f0d112a0253b9ca0bbce9b756a1d19383cc380",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["syncKeylessConfigAction"],
+    "7f2900904a68838322652dd41d1b1afd3e4336c7e1",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["detectKeylessEnvDriftAction"],
-    "7ffd513fd5101f36df03cd8831cc862efce52b79b5",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["syncKeylessConfigAction"]
+    "7f363cecdd7f0422ef2eee07ec2caf03b501bfc83d",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["deleteKeylessAction"],
+    "7f59844259ffbb5487a0d81b7da1ca6adf31d851e2",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createOrReadKeylessAction"],
+    "7f5fda432ea3ec9713cb4f0b7dfa567e71eea9e8a4",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$server$2f$keyless$2d$custom$2d$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["formatMetadataHeaders"],
+    "7f883f463acd0f94a237d104e93b444a4175d7e358",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$server$2f$keyless$2d$custom$2d$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["collectKeylessMetadata"],
+    "7fcb3b308ecb278e8b5e8182d4cacb08dc7d690bd9",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$server$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["invalidateCacheAction"]
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f2e$next$2d$internal$2f$server$2f$app$2f28$main$292f$dashboard$2f$page$2f$actions$2e$js__$7b$__ACTIONS_MODULE0__$3d3e$__$225b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$server$2f$keyless$2d$custom$2d$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE1__$3d3e$__$225b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$keyless$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29222c$__ACTIONS_MODULE2__$3d3e$__$225b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$server$2d$actions$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$server__actions__loader$2c$__ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i('[project]/Desktop/WalletWise/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)", ACTIONS_MODULE1 => "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)", ACTIONS_MODULE2 => "[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)" } [app-rsc] (server actions loader, ecmascript) <locals>');
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WalletWise$2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$server$2f$keyless$2d$custom$2d$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WalletWise/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)");
