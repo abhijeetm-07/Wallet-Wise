@@ -1,4 +1,4 @@
-import { mutation } from "./_generated/server";
+import { mutation, query } from "./_generated/server";
 
 
 export const store = mutation({
@@ -34,4 +34,23 @@ export const store = mutation({
       imageUrl: identity.pictureUrl,
     });
   },
+});
+
+export const getCurrentUser = query({
+
+  handler: async (ctx) => {
+    const identity = await ctx.auth.getUserIdentity();
+    if (!identity) {
+      // Must be authenticated to get a user
+      throw new Error("Called getCurrentUser without authentication present");
+    }
+    const user=await ctx.db.query("users").withIndex("byTokenIdentifier",(q)=>{
+      q.eq("tokenIdentifier",identity.tokenIdentifier)
+    }).first();
+    if(!user){
+      throw new Error("User not found");
+    }
+    return user;
+  }
+
 });

@@ -1,4 +1,6 @@
 {
+  "/(main)/contacts/page": "app/(main)/contacts/page.js",
+  "/(main)/dashboard/page": "app/(main)/dashboard/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"

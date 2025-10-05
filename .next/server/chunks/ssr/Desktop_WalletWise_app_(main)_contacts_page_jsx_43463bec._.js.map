@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/%28main%29/contacts/page.jsx"],"sourcesContent":["\"use client\"\n\nimport React from 'react'\n\nconst ContactsPage = () => {\n  return (\n    <div>\n      ContactsPage\n    </div>\n  )\n}\n\nexport default ContactsPage\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIA,MAAM,eAAe;IACnB,qBACE,uQAAC;kBAAI;;;;;;AAIT;uCAEe","debugId":null}}]
+}

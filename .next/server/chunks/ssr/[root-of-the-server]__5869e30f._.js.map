@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhijeetm/Desktop/WalletWise/app/%28main%29/dashboard/page.jsx"],"sourcesContent":["import React from 'react'\n\nconst dashboard = () => {\n  return (\n    <div >\n    dashboard\n    </div>\n  )\n}\n\nexport default dashboard\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,YAAY;IAChB,qBACE,uQAAC;kBAAK;;;;;;AAIV;uCAEe","debugId":null}}]
+}
